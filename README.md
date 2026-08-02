@@ -15,6 +15,46 @@ This project demonstrates how to control four DC motors using an Arduino Uno and
 - 4 DC Motors
 - Jumper Wires
 
+## Wiring Connections
+
+| L293D Pin | Connected To |
+
+|-----------|--------------|
+
+| 1 (Enable 1,2) | 5V |
+
+| 2 (IN1) | Digital Pin 2 |
+
+| 3 (OUT1) | Motor 1 & Motor 2 (Terminal 1) |
+
+| 4 (GND) | GND |
+
+| 5 (GND) | GND |
+
+| 6 (OUT2) | Motor 1 & Motor 2 (Terminal 2) |
+
+| 7 (IN2) | Digital Pin 3 |
+
+| 8 (VCC2) | 5V |
+
+| 9 (Enable 3,4) | 5V |
+
+| 10 (IN3) | Digital Pin 4 |
+
+| 11 (OUT3) | Motor 3 & Motor 4 (Terminal 1) |
+
+| 12 (GND) | GND |
+
+| 13 (GND) | GND |
+
+| 14 (OUT4) | Motor 3 & Motor 4 (Terminal 2) |
+
+| 15 (IN4) | Digital Pin 5 |
+
+| 16 (VCC1) | 5V |
+
+---
+
 ## Software
 - Tinkercad
 
