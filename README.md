@@ -15,43 +15,41 @@ This project demonstrates how to control four DC motors using an Arduino Uno and
 - 4 DC Motors
 - Jumper Wires
 
+---
+
 ## Wiring Connections
 
-| L293D Pin | Connected To |
+- L293D Pin 1 (Enable 1,2) → 5V
 
-|-----------|--------------|
+- L293D Pin 2 (IN1) → Arduino Digital Pin 2
 
-| 1 (Enable 1,2) | 5V |
+- L293D Pin 3 (OUT1) → Motor 1 & Motor 2 (Terminal 1)
 
-| 2 (IN1) | Digital Pin 2 |
+- L293D Pin 4 → GND
 
-| 3 (OUT1) | Motor 1 & Motor 2 (Terminal 1) |
+- L293D Pin 5 → GND
 
-| 4 (GND) | GND |
+- L293D Pin 6 (OUT2) → Motor 1 & Motor 2 (Terminal 2)
 
-| 5 (GND) | GND |
+- L293D Pin 7 (IN2) → Arduino Digital Pin 3
 
-| 6 (OUT2) | Motor 1 & Motor 2 (Terminal 2) |
+- L293D Pin 8 (VCC2) → 5V
 
-| 7 (IN2) | Digital Pin 3 |
+- L293D Pin 9 (Enable 3,4) → 5V
 
-| 8 (VCC2) | 5V |
+- L293D Pin 10 (IN3) → Arduino Digital Pin 4
 
-| 9 (Enable 3,4) | 5V |
+- L293D Pin 11 (OUT3) → Motor 3 & Motor 4 (Terminal 1)
 
-| 10 (IN3) | Digital Pin 4 |
+- L293D Pin 12 → GND
 
-| 11 (OUT3) | Motor 3 & Motor 4 (Terminal 1) |
+- L293D Pin 13 → GND
 
-| 12 (GND) | GND |
+- L293D Pin 14 (OUT4) → Motor 3 & Motor 4 (Terminal 2)
 
-| 13 (GND) | GND |
+- L293D Pin 15 (IN4) → Arduino Digital Pin 5
 
-| 14 (OUT4) | Motor 3 & Motor 4 (Terminal 2) |
-
-| 15 (IN4) | Digital Pin 5 |
-
-| 16 (VCC1) | 5V |
+- L293D Pin 16 (VCC1) → 5V
 
 ---
 
